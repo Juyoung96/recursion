@@ -1,0 +1,18 @@
+// RecursiveMath.java
+
+public class RecursiveMath {
+  
+  public static void main( String[] ) {
+    
+    System.out.println( factorial(10) );
+    //fibonacci(10);
+    
+  } // END main method
+  
+  public static int factorial( int n ) {
+    if( n > 0 ) {
+     return n * factorial( n-1 ); // 10! = 10*9! = 10*9*8! ... 1!
+    }
+  }
+  
+} // END RecursiveMath
